@@ -1,0 +1,3 @@
+include ':app', ':apng-drawable-library', ':japng-android-library', ':apng-view'
+
+project(':apng-view').projectDir = new File(settingsDir, '../apng-view/apng-view/')
